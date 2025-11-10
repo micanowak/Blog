@@ -587,6 +587,7 @@ main {
 
     .boton {
         display: block;
-        width: 90%;
+        width: 87.5%;
+        justify-content: center;
     }
 }
