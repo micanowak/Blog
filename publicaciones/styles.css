@@ -174,12 +174,14 @@ footer {
     color: #333333;
     font-size: 14.4px;
 }
+
 .formulario-contacto h1 {
     font-family: 'Kameron', serif;
     color: #a40027;
     margin-bottom: 8px;
     text-align: center;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -222,6 +224,7 @@ textarea:focus {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 blockquote {
     border-left: 4px solid #a40027;
     padding-left: 16px;
@@ -233,31 +236,37 @@ blockquote {
 .detalle-nota h2 {
     color: #a40027;
 }
+
 .listaDest-item:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 .listaDest-content h3 {
     font-family: 'Kameron', serif;
     color: #a40027;
     margin-top: 0;
     margin-bottom: 8px;
 }
+
 .portada p {
     font-size: 17.6px;
     margin-bottom: 32px;
     line-height: 1.7;
 }
+
 .introduccion h2 {
     font-family: 'Kameron', serif;
     color: #a40027;
     margin-bottom: 16px;
 }
+
 .destacados h2 {
     font-family: 'Kameron', serif;
     color: #a40027;
     margin-bottom: 32px;
 }
+
 .tarjeta {
     background: #eeeeee;
     padding: 24px;
@@ -265,14 +274,17 @@ blockquote {
     text-align: left;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
+
 .tarjeta p {
     margin-bottom: 16px;
 }
+
 .llamado h2 {
     font-family: 'Kameron', serif;
     color: #a40027;
     margin-bottom: 16px;
 }
+
 .articulo {
     display: flex;
     justify-content: center;
@@ -344,6 +356,7 @@ blockquote {
     background: #eeeeee;
     border-radius: 4px;
 }
+
 .tarjeta-nota:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
@@ -397,6 +410,7 @@ blockquote {
     width: 100%;
     margin: 16px auto 0;
 }
+
 .tarjeta-categoria:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
@@ -454,7 +468,8 @@ blockquote {
         gap: 20px;
         max-width: 860px;
     }
-.portada h1 {
+
+    .portada h1 {
         font-size: 32px;
     }
 
@@ -477,6 +492,7 @@ main {
 .entradas div {
     padding: 17.6px;
 }
+
 .detalle-nota {
     padding: 20px;
 }
@@ -494,6 +510,7 @@ main {
 .miniatura-nota img {
     height: 180px;
 }
+
 @media (max-width: 480px) {
     body {
         line-height: 1.5;
@@ -506,20 +523,24 @@ main {
     nav a {
         font-weight: 600;
     }
-.miniatura-nota img {
+
+    .miniatura-nota img {
         height: 150px;
     }
-.portada h1 {
+
+    .portada h1 {
         font-size: 25.6px;
     }
-footer {
+
+    footer {
         font-size: 13.6px;
         padding: 17.6px;
     }
 
     .boton {
         display: block;
-        width: 90%;
+        width: 85%;
+        margin: 0 auto;
     }
 
     .cat-grid {
